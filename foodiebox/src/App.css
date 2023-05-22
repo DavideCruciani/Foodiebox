@@ -16,7 +16,7 @@ html {
   background-color: #198754 !important;
 }
 
-#news {
+#news, #piani {
   background-color: #0a4c2d;
   background-image:  linear-gradient(135deg, #198754 25%, transparent 25%), linear-gradient(225deg, #198754 25%, transparent 25%), linear-gradient(45deg, #198754 25%, transparent 25%), linear-gradient(315deg, #198754 25%, #0a4c2d 25%);
   background-position:  40px 0, 40px 0, 0 0, 0 0;

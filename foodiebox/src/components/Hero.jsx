@@ -1,7 +1,9 @@
 import React from 'react'
+import Modal from './Modal'
 
 const Hero = ({immagine}) => {
   return (
+    <>
     <section className="bg-dark text-light px-4 py-5 text-center text-sm-start">
       <div className="container">
         <div className="d-sm-flex aling-items-center justify-content-between">
@@ -16,6 +18,8 @@ const Hero = ({immagine}) => {
         </div>
       </div>
     </section>
+    <Modal />
+    </>
   )
 }
 
