@@ -1,0 +1,47 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+html {
+  scroll-padding-top: 70px;
+}
+
+#newsletter {
+  width: 50%;
+}
+
+.bg-primary {
+  background-color: #198754 !important;
+}
+
+#news {
+  background-color: #0a4c2d;
+  background-image:  linear-gradient(135deg, #198754 25%, transparent 25%), linear-gradient(225deg, #198754 25%, transparent 25%), linear-gradient(45deg, #198754 25%, transparent 25%), linear-gradient(315deg, #198754 25%, #0a4c2d 25%);
+  background-position:  40px 0, 40px 0, 0 0, 0 0;
+  background-size: 80px 80px;
+  background-repeat: repeat;
+}
+
+@media (max-width: 767px) {
+  #newsletter {
+    width: 100%;
+  }
+}
+
+#navigazione li {
+  border-top: solid 2px transparent;
+  border-bottom: solid 2px transparent;
+}
+
+@media (min-width: 992px) {
+#navigazione li:hover {
+  border-bottom-color: #198754;
+}
+}
+
+.form-control:focus {
+  border-color: #198754;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #198754;
+}
