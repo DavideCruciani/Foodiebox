@@ -12,7 +12,7 @@ Questo progetto è una semplice landing page che ho creato per allenarmi con Boo
 - CSS3
 - JavaScript
 - React.js
-- Bootstrap (per il design responsivo)
+- Bootstrap
 
 ## Setup del Progetto
 
