@@ -10,7 +10,7 @@ const Footer = () => {
         </div>
         
         <p className="lead">Copyright &copy; 2023 FoodieBox</p>
-        <a href="#" className="position-absoulute bottom-0 end-0 p-5">
+        <a href="#" className="position-absoulute bottom-0 end-0">
           <i className="bi bi-arrow-up-circle h1 text-success"></i>
         </a>
       </div>
