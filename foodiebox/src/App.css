@@ -31,8 +31,8 @@ html {
 }
 
 #navigazione li {
-  border-top: solid 2px transparent;
-  border-bottom: solid 2px transparent;
+  border-top: solid 3px transparent;
+  border-bottom: solid 3px transparent;
 }
 
 @media (min-width: 992px) {
